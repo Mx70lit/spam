@@ -52,7 +52,9 @@ echo "[1] Bom Chat Whatsapp"
 
 echo "[2] Spam Telpon"
 
-echo "[3] Keluar"
+echo "[3] Bom SMS"
+
+echo "[0] Keluar
 
 read -p "PILIH Satu aja cuk jan banyak banyak : " tolit
 
@@ -70,7 +72,7 @@ sh spam.sh
 fi
 
 
-if [ $tolit = 2 ] || [ $tolit = 01 ]
+if [ $tolit = 2 ] || [ $tolit = 02 ]
 
 then
 
@@ -82,8 +84,20 @@ sh spam.sh
 
 fi
 
+if [ $tolit = 3 ] || [ $tolit = 03 ]
 
-if [ $bro = 3 ] || [ $bro = 03 ]
+then
+
+clear
+
+php bomsms.php
+
+sh spam.sh
+
+fi
+
+
+if [ $bro = 0 ] || [ $bro = 0 ]
 
 then
 
