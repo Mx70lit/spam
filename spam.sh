@@ -54,7 +54,7 @@ echo "[2] Spam Telpon"
 
 echo "[3] Bom SMS"
 
-echo "[0] Keluar
+echo "[0] Keluar"
 
 read -p "PILIH Satu aja cuk jan banyak banyak : " tolit
 
